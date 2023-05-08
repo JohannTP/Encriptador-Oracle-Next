@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+        <title>Challenge - I</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="logo">
+                <img class="logoimg" src="imagenes/logo.png">
+                <h2 class="title">Encriptador de mensajes</h2>
+            </div>
+
+            <div class="left">
+                <input class="text-input" id="inputTexto" type="text" placeholder="Ingrese el texto aquí">
+            </div>
+
+            <div class="right">
+                <img id="imgright" src="imagenes/Muñeco.png">
+                <h3 id="texto">¡Ningun mensaje fue encontrado..!</h3>
+                <textarea id="texto2" name="name" cols="40" rows="6">Ingrese el texto que desees encriptar o desencriptar</textarea>
+                
+                <button id="copiar" type="button" name="button" onclick="copiar()">¡Copiar!</button>
+            </div>
+
+            <div class="left-button">
+                <p>Solo minúsculas y sin asento</p>
+                <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+                <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+
+        <h4 id="creditos"><center>By Kevin Johann Torres Paz</center><h4>
+    </body>
+</html>
